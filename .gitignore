@@ -1,0 +1,31 @@
+# --- секреты: никогда не коммитить ---
+secrets/*
+!secrets/README.md
+.env
+*.env
+!.env.example
+*.key
+*.pem
+id_*
+
+# --- личное: содержимое дневника/inbox локально, структура трекается ---
+life/diary/*
+!life/diary/README.md
+life/inbox/*
+!life/inbox/README.md
+
+# --- тяжёлые файлы: структура трекается, содержимое локально ---
+creative/media/*
+!creative/media/README.md
+documents/*
+!documents/README.md
+
+# --- ОС / редакторы ---
+.DS_Store
+.obsidian/
+
+# --- python (когда появятся код-проекты) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
