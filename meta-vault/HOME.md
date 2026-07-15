@@ -89,6 +89,8 @@ meta-vault верхнего level'а: vault *о самом неймспейсе*
   (оркестратор) + инвариант.
 - [[meta-vault/secrets-map|Secrets map]] — где живут доступы (без значений).
 - [[meta-vault/principles|Principles]] — правила vault.
+- [[meta-vault/session-close|Session-close]] — протокол завершения сессии:
+  ритуал закрытия записей уровня (status/карта/backlog) + опциональный хук.
 
 ---
 
