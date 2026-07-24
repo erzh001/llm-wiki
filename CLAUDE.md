@@ -21,8 +21,11 @@
 
 - **личное:** `life/` — живой первоисточник (дневник, тексты). `trust: primary`.
 - **работа:** `study/` (учёба), `creative/` (творчество) — домены-примеры;
-  переименуй и замени под свою жизнь, новые рождай из
-  `meta-vault/vault-template.md`.
+  `ppu/` (разработка продукта ppu-crm), `chem-resale/` (импорт химкомпонентов
+  ППУ Китай→KZ), `edu-center/` (разработка продукта EduCenter CRM+ERP для
+  языковых школ), `biz-knowledge/` (бизнес-знания: плейбук, дистиллят из SHARKS
+  под edustar) — реальные рабочие домены. Переименуй и замени примеры под свою
+  жизнь, новые рождай из `meta-vault/vault-template.md`.
 
 **Иерархия, не демократия:** top-агент пишет во все уровни ниже; нижние
 горизонтально друг другу не пишут. Работая в нижнем уровне, агент подчиняется
@@ -62,6 +65,19 @@
 - `study/` — домен учёбы: своя дверь + `study-vault/`.
 - `creative/` — домен творчества: своя дверь + `creative-vault/` + `media/`
   (тяжёлые файлы, вне git).
+- `ppu/` — разработка продукта ppu-crm: своя дверь + `ppu-vault/`. `private`;
+  код репо — вне неймспейса (указатель в vault).
+- `chem-resale/` — импорт компонентов ППУ (Китай→Казахстан): своя дверь +
+  `chem-resale-vault/`. `private`; независим от `ppu/` (не путать — только
+  товар общий).
+- `edu-center/` — разработка продукта EduCenter CRM+ERP (SaaS для языковых
+  школ): своя дверь + `edu-center-vault/`. `private`; код репо — вне неймспейса
+  (`Sites/edu-center`, указатель в vault). Не путать с `ppu/` — другой продукт
+  и бизнес.
+- `biz-knowledge/` — бизнес-знания: дистиллированный плейбук (стратегия,
+  оргдизайн, продажи, маркетинг, юнит-экономика), источник — SHARKS (школа
+  плавания), назначение — адаптация под edustar (`edu-center`). Своя дверь +
+  `biz-knowledge-vault/`. `private`; raw-источники (борды Miro, видео) — вне git.
 - `public/` — проекция «наружу»: готовые внешние артефакты. Безагентная.
 - `documents/` — приёмник документов (вне git).
 - `secrets/` — доступы (вне git, NEVER commit/sync/index; контракт в README).
@@ -86,5 +102,9 @@
 [[meta-vault/HOME|meta-vault]] · [[life/HOME|life]] ([[life/CLAUDE|дверь]]) ·
 [[study/study-vault/HOME|study]] ([[study/CLAUDE|дверь]]) ·
 [[creative/creative-vault/HOME|creative]] ([[creative/CLAUDE|дверь]]) ·
+[[ppu/ppu-vault/HOME|ppu]] ([[ppu/CLAUDE|дверь]]) ·
+[[chem-resale/chem-resale-vault/HOME|chem-resale]] ([[chem-resale/CLAUDE|дверь]]) ·
+[[edu-center/edu-center-vault/HOME|edu-center]] ([[edu-center/CLAUDE|дверь]]) ·
+[[biz-knowledge/biz-knowledge-vault/HOME|biz-knowledge]] ([[biz-knowledge/CLAUDE|дверь]]) ·
 [[public/HOME|public]] ([[public/CLAUDE|дверь]]) ·
 [[documents/README|documents]] · [[secrets/README|secrets]]

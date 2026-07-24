@@ -29,6 +29,18 @@ tags: [secrets, security, access]
 
 - _(пусто — появятся с первыми код-проектами)_
 
+## Локальные данные приложений (не секреты, но `private`)
+
+Секретных значений тут нет, но это приватные поверхности доступа — фиксируем,
+чтобы были видны с мета-уровня.
+
+- **WhatsApp**, локальная **незашифрованная** база сообщений:
+  `~/Library/Group Containers/group.net.whatsapp.WhatsApp.shared/ChatStorage.sqlite`.
+  Доступ **только чтение** через снапшот-копию. Метод:
+  [[meta-vault/tech/whatsapp/README|tech/whatsapp]]; решение:
+  [[meta-vault/decisions/2026-07-20-whatsapp-local-readonly|2026-07-20]]. Экспорт
+  → `life/inbox/whatsapp/` (вне git).
+
 ## Защита
 
 - `.gitignore` корня: `secrets/*`, `*.env`, `*.key`, `id_*`.

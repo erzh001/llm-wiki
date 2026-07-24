@@ -50,6 +50,14 @@ related:
 │   └─ study-vault/HOME.md         [map]  ✓  + status ✓ + principles ✓
 ├─ creative/CLAUDE.md              [door] ✓
 │   └─ creative-vault/HOME.md      [map]  ✓  + status ✓ + principles ✓
+├─ ppu/CLAUDE.md                   [door] ✓  (private; код репо вне неймспейса)
+│   └─ ppu-vault/HOME.md           [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
+├─ chem-resale/CLAUDE.md           [door] ✓  (private; импорт ППУ Китай→KZ, независим от ppu)
+│   └─ chem-resale-vault/HOME.md   [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
+├─ edu-center/CLAUDE.md            [door] ✓  (private; продукт EduCenter CRM+ERP, код репо вне неймспейса)
+│   └─ edu-center-vault/HOME.md    [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
+├─ biz-knowledge/CLAUDE.md         [door] ✓  (private; бизнес-плейбук, дистиллят SHARKS → edustar)
+│   └─ biz-knowledge-vault/HOME.md [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
 ├─ public/CLAUDE.md                [door] ✓  + HOME.md [map] ✓   (проекция, безагентная)
 ├─ documents/                      [human]    README (приёмник, вне git)
 └─ secrets/                        [human]    README (вне git; NEVER commit)

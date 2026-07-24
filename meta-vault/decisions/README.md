@@ -27,4 +27,6 @@ related:
 
 ## Индекс
 
-_(пусто — первое решение уровня запишется сюда)_
+- [[meta-vault/decisions/2026-07-20-whatsapp-local-readonly|2026-07-20 · WhatsApp
+  read-only]] — читаем локальную незашифрованную базу; отказ от QR-моста/API
+  (ban-risk/ToS).
