@@ -22,10 +22,11 @@
 - **личное:** `life/` — живой первоисточник (дневник, тексты). `trust: primary`.
 - **работа:** `study/` (учёба), `creative/` (творчество) — домены-примеры;
   `ppu/` (разработка продукта ppu-crm), `chem-resale/` (импорт химкомпонентов
-  ППУ Китай→KZ), `edu-center/` (разработка продукта EduCenter CRM+ERP для
-  языковых школ), `biz-knowledge/` (бизнес-знания: плейбук, дистиллят из SHARKS
-  под edustar) — реальные рабочие домены. Переименуй и замени примеры под свою
-  жизнь, новые рождай из `meta-vault/vault-template.md`.
+  ППУ Китай→KZ), `ppu-manufacturing/` (производство труб ППУ), `expertise/`
+  (товароведческая экспертиза и оценка), `edu-center/` (разработка продукта
+  EduCenter CRM+ERP для языковых школ), `biz-knowledge/` (бизнес-знания: плейбук,
+  дистиллят из SHARKS под edustar) — реальные рабочие домены. Переименуй и замени
+  примеры под свою жизнь, новые рождай из `meta-vault/vault-template.md`.
 
 **Иерархия, не демократия:** top-агент пишет во все уровни ниже; нижние
 горизонтально друг другу не пишут. Работая в нижнем уровне, агент подчиняется
@@ -69,7 +70,13 @@
   код репо — вне неймспейса (указатель в vault).
 - `chem-resale/` — импорт компонентов ППУ (Китай→Казахстан): своя дверь +
   `chem-resale-vault/`. `private`; независим от `ppu/` (не путать — только
-  товар общий).
+  товар общий). Сырьё для `ppu-manufacturing/`.
+- `ppu-manufacturing/` — производство предизолированных труб ППУ (проект
+  «teplocom»): своя дверь + `ppu-manufacturing-vault/`. `private`. **Три «ППУ» не
+  путать:** `chem-resale` (импорт сырья) → `ppu-manufacturing` (производство
+  трубы) ↔ `ppu` (софт ppu-crm, к производству не относится).
+- `expertise/` — товароведческая экспертиза и оценка (бренд «Сараптама», юрлицо
+  «Казинспектсервис»): своя дверь + `expertise-vault/`. `private`.
 - `edu-center/` — разработка продукта EduCenter CRM+ERP (SaaS для языковых
   школ): своя дверь + `edu-center-vault/`. `private`; код репо — вне неймспейса
   (`Sites/edu-center`, указатель в vault). Не путать с `ppu/` — другой продукт
@@ -104,6 +111,8 @@
 [[creative/creative-vault/HOME|creative]] ([[creative/CLAUDE|дверь]]) ·
 [[ppu/ppu-vault/HOME|ppu]] ([[ppu/CLAUDE|дверь]]) ·
 [[chem-resale/chem-resale-vault/HOME|chem-resale]] ([[chem-resale/CLAUDE|дверь]]) ·
+[[ppu-manufacturing/ppu-manufacturing-vault/HOME|ppu-manufacturing]] ([[ppu-manufacturing/CLAUDE|дверь]]) ·
+[[expertise/expertise-vault/HOME|expertise]] ([[expertise/CLAUDE|дверь]]) ·
 [[edu-center/edu-center-vault/HOME|edu-center]] ([[edu-center/CLAUDE|дверь]]) ·
 [[biz-knowledge/biz-knowledge-vault/HOME|biz-knowledge]] ([[biz-knowledge/CLAUDE|дверь]]) ·
 [[public/HOME|public]] ([[public/CLAUDE|дверь]]) ·

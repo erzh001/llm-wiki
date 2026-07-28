@@ -1,4 +1,11 @@
 # lessons/ — набитые шишки
 
 Операционные уроки бизнеса: триггер → правило → почему. «Знания, которыми оброс».
-Один урок = один файл `YYYY-MM-DD-<slug>.md`. _(пусто — растёт из видео и опыта)_
+Один урок = один файл `YYYY-MM-DD-<slug>.md`.
+
+- [[biz-knowledge/biz-knowledge-vault/lessons/owner-lessons|owner-lessons]] —
+  уроки владельца из ChatGPT-экспорта (инвестор, венчур, партнёрский конфликт ⚠,
+  стагфляция).
+- [[biz-knowledge/biz-knowledge-vault/lessons/sharks-financial-distress|sharks-financial-distress]]
+  — кассовый разрыв при бумажной прибыли + коллекторы (из claude.ai-чатов);
+  аргумент для cashflow-фичи edustar.

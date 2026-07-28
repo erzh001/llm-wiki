@@ -35,7 +35,12 @@ meta-vault верхнего level'а: vault *о самом неймспейсе*
   `private`; код репо — вне неймспейса (`Sites/ppu-crm`, указатель в vault).
 - **`../chem-resale/`** — импорт компонентов ППУ (Китай→Казахстан), перепродажа.
   Дверь + `chem-resale-vault/`. `private`; независим от `ppu/` (общий только
-  товар, не бизнес).
+  товар, не бизнес). Сырьё для `ppu-manufacturing/`.
+- **`../ppu-manufacturing/`** — производство предизолированных труб ППУ (проект
+  «teplocom»). Дверь + `ppu-manufacturing-vault/`. `private`. Потребляет сырьё
+  `chem-resale`; не путать с `ppu/` (софт) и `chem-resale/` (импорт).
+- **`../expertise/`** — товароведческая экспертиза и оценка (бренд «Сараптама»,
+  юрлицо «Казинспектсервис»). Дверь + `expertise-vault/`. `private`.
 - **`../edu-center/`** — разработка продукта EduCenter CRM+ERP (SaaS для
   языковых школ). Дверь + `edu-center-vault/`. `private`; код репо — вне
   неймспейса (`Sites/edu-center`, указатель в vault). Отдельный продукт/бизнес,
@@ -66,7 +71,9 @@ meta-vault верхнего level'а: vault *о самом неймспейсе*
 ## Backlog + inbox (задачи: кратко на мете, решаются ниже)
 
 - [[meta-vault/inbox/README|inbox/]] — одна дверь захвата: кидай что угодно,
-  zero ceremony.
+  zero ceremony. Содержит
+  [[meta-vault/inbox/claude-ai-chats|claude-ai-chats]] — карта кросс-доменного
+  источника claude.ai (чаты/проекты + маршрутизация по доменам).
 - [[meta-vault/backlog|Backlog]] — **реестр**: все живые пункты одной строкой
   (суть · исполнитель · указатель вниз). Разбирается регулярной сессией:
   inbox → проход реестра → свод.

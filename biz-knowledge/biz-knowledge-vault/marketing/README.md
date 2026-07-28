@@ -5,5 +5,16 @@
 
 - [[biz-knowledge/biz-knowledge-vault/marketing/angles-and-offers|angles-and-offers]]
   — маркетинговые англы и офферы SHARKS (из owners space).
+- [[biz-knowledge/biz-knowledge-vault/marketing/brand-identity|brand-identity]]
+  — бренд-идентика SHARKS (логотип, цвета, шрифты; из Яндекс.Диска).
+- [[biz-knowledge/biz-knowledge-vault/marketing/programs-30-days|programs-30-days]]
+  — продуктовые программы «за 30 дней» (8 занятий): шаблон оффера.
+- [[biz-knowledge/biz-knowledge-vault/marketing/upper-funnel-worthy-parent|upper-funnel-worthy-parent]]
+  — верхний вход в воронку «достойный родитель»: ценностный контент → доверие →
+  мост к туру/пробному; дистиллят `Маркетинг` (Drive).
+- [[biz-knowledge/biz-knowledge-vault/marketing/content-registers|content-registers]]
+  — регистры тона (ирония/треш/забота/премиум), УТП-набор, КЭВ, UGC; дистиллят
+  папки `Маркетинг/` (Desktop-архив).
 
-Источник: доска «Sharks — Owners space».
+Источники: доска «Sharks — Owners space», бренд-ассеты (Яндекс.Диск), Google Drive,
+Desktop-архив.

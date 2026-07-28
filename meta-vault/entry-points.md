@@ -54,6 +54,10 @@ related:
 │   └─ ppu-vault/HOME.md           [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
 ├─ chem-resale/CLAUDE.md           [door] ✓  (private; импорт ППУ Китай→KZ, независим от ppu)
 │   └─ chem-resale-vault/HOME.md   [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
+├─ ppu-manufacturing/CLAUDE.md     [door] ✓  (private; производство труб ППУ «teplocom»; сырьё ← chem-resale)
+│   └─ …-vault/HOME.md             [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓ + overview ✓
+├─ expertise/CLAUDE.md             [door] ✓  (private; товароведческая экспертиза/оценка «Сараптама»)
+│   └─ expertise-vault/HOME.md     [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓ + overview ✓
 ├─ edu-center/CLAUDE.md            [door] ✓  (private; продукт EduCenter CRM+ERP, код репо вне неймспейса)
 │   └─ edu-center-vault/HOME.md    [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
 ├─ biz-knowledge/CLAUDE.md         [door] ✓  (private; бизнес-плейбук, дистиллят SHARKS → edustar)
