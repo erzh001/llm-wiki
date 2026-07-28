@@ -34,8 +34,13 @@ related:
 
 ## Зоны
 
-- **market/** · **clients/** · **positioning.md** — рынок, портрет покупателя,
-  оффер _(появятся по мере наполнения; клиентский бизнес)_.
+- [[deeda/deeda-vault/overview|overview]] — бизнес, производство, экономика,
+  аудит канала.
+- **plans/** — [[deeda/deeda-vault/plans/sales-growth-roadmap|sales-growth-roadmap]]
+  (документ-решение) + [[deeda/deeda-vault/plans/tiktok-live-test|tiktok-live-test]]
+  (сценарий эфира).
+- **market/** — [[deeda/deeda-vault/market/modnoplus|modnoplus]] (эталон
+  live-commerce). **clients/** · **positioning.md** — по мере наполнения.
 - **systems/** — операционка магазина (закуп/поставщики, склад, витрина, продажи)
   _(по надобности)_.
 - **decisions/** · **lessons/** · **people/** · **tools/** — растут по надобности.

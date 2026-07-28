@@ -75,6 +75,9 @@ tags: [status, hot]
 
 ## Указатели
 
+- **План-решение:** [[deeda/deeda-vault/plans/sales-growth-roadmap|sales-growth-roadmap]]
+  (диагноз → этапы 0–2 с воротами решений) + сценарий эфира
+  [[deeda/deeda-vault/plans/tiktok-live-test|tiktok-live-test]].
 - Обзор: [[deeda/deeda-vault/overview|overview]] · карта:
   [[deeda/deeda-vault/HOME|HOME]] · правила:
   [[deeda/deeda-vault/principles|principles]].
