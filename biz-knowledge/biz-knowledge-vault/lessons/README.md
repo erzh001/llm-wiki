@@ -9,3 +9,5 @@
 - [[biz-knowledge/biz-knowledge-vault/lessons/sharks-financial-distress|sharks-financial-distress]]
   — кассовый разрыв при бумажной прибыли + коллекторы (из claude.ai-чатов);
   аргумент для cashflow-фичи edustar.
+- [[biz-knowledge/biz-knowledge-vault/lessons/meeting-effectiveness|meeting-effectiveness]]
+  — цель встречи + вовлечённость = функция руководителей (из встреч Меруерт).
