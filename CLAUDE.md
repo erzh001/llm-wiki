@@ -25,7 +25,8 @@
   ППУ Китай→KZ), `ppu-manufacturing/` (производство труб ППУ), `expertise/`
   (товароведческая экспертиза и оценка), `edu-center/` (разработка продукта
   EduCenter CRM+ERP для языковых школ), `biz-knowledge/` (бизнес-знания: плейбук,
-  дистиллят из SHARKS под edustar) — реальные рабочие домены. Переименуй и замени
+  дистиллят из SHARKS под edustar), `deeda/` (розничный магазин мужской одежды,
+  преимущественно костюмы) — реальные рабочие домены. Переименуй и замени
   примеры под свою жизнь, новые рождай из `meta-vault/vault-template.md`.
 
 **Иерархия, не демократия:** top-агент пишет во все уровни ниже; нижние
@@ -85,6 +86,8 @@
   оргдизайн, продажи, маркетинг, юнит-экономика), источник — SHARKS (школа
   плавания), назначение — адаптация под edustar (`edu-center`). Своя дверь +
   `biz-knowledge-vault/`. `private`; raw-источники (борды Miro, видео) — вне git.
+- `deeda/` — розничный магазин мужской одежды, преимущественно костюмы: своя
+  дверь + `deeda-vault/`. `private`; клиентский розничный бизнес.
 - `public/` — проекция «наружу»: готовые внешние артефакты. Безагентная.
 - `documents/` — приёмник документов (вне git).
 - `secrets/` — доступы (вне git, NEVER commit/sync/index; контракт в README).
@@ -115,5 +118,6 @@
 [[expertise/expertise-vault/HOME|expertise]] ([[expertise/CLAUDE|дверь]]) ·
 [[edu-center/edu-center-vault/HOME|edu-center]] ([[edu-center/CLAUDE|дверь]]) ·
 [[biz-knowledge/biz-knowledge-vault/HOME|biz-knowledge]] ([[biz-knowledge/CLAUDE|дверь]]) ·
+[[deeda/deeda-vault/HOME|deeda]] ([[deeda/CLAUDE|дверь]]) ·
 [[public/HOME|public]] ([[public/CLAUDE|дверь]]) ·
 [[documents/README|documents]] · [[secrets/README|secrets]]

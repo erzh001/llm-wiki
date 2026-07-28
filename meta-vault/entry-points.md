@@ -62,6 +62,8 @@ related:
 │   └─ edu-center-vault/HOME.md    [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
 ├─ biz-knowledge/CLAUDE.md         [door] ✓  (private; бизнес-плейбук, дистиллят SHARKS → edustar)
 │   └─ biz-knowledge-vault/HOME.md [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
+├─ deeda/CLAUDE.md                 [door] ✓  (private; розница мужской одежды, костюмы)
+│   └─ deeda-vault/HOME.md         [map]  ✓  + status ✓ + principles ✓ + secrets-map ✓
 ├─ public/CLAUDE.md                [door] ✓  + HOME.md [map] ✓   (проекция, безагентная)
 ├─ documents/                      [human]    README (приёмник, вне git)
 └─ secrets/                        [human]    README (вне git; NEVER commit)
