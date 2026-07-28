@@ -29,6 +29,9 @@ tags: [status, hot]
   реальные цифры — закрыт пробел «цифр нет»), ФОТ по грейдам оцифрован (G2–G7),
   СОП-воронка продаж (12 СОП + типология + продуктовая лестница), маркетинговый
   верхний вход «достойный родитель».
+- **Внесено с курса Куницкого (2026-07-28):** каркас 12 модулей систематизации →
+  [[biz-knowledge/biz-knowledge-vault/frameworks/systematization-method|frameworks/systematization-method]]
+  (+ карта модулей в source-card). Это мета-методология всего плейбука.
 - **Внесено с claude.ai (2026-07-28):** урок «финансовый стресс SHARKS»
   (кассовый разрыв при бумажной прибыли + коллекторы) →
   [[biz-knowledge/biz-knowledge-vault/lessons/sharks-financial-distress|lessons/sharks-financial-distress]].
@@ -65,10 +68,13 @@ tags: [status, hot]
   разобраны корпоративка/юр (устав, договоры), гранты (АКК/молодёжка), проект
   бассейна (Басик), ФЭМ СРМ.xlsx, IVR-аудио. Карта —
   [[biz-knowledge/biz-knowledge-vault/sources/desktop-sharks-archive|sources/desktop-sharks-archive]].
-- **Курс Куницкого (`Куницкий.rar`, 16 ГБ, Drive) не разобран** — распакован и
-  дистиллирован только модуль вовлечённости; полный курс владелец распакует
-  локально позже. Тогда пройтись по темам →
-  [[biz-knowledge/biz-knowledge-vault/sources/business-constructor-kunitsky|business-constructor-kunitsky]].
+- **Курс Куницкого распакован и дистиллирован (2026-07-28)** — 12 модулей
+  «Бизнес-Конструктора» (raw в `~/Downloads/Куницкий/`, вне git); каркас →
+  [[biz-knowledge/biz-knowledge-vault/frameworks/systematization-method|systematization-method]],
+  карта модулей/инструментов →
+  [[biz-knowledge/biz-knowledge-vault/sources/business-constructor-kunitsky|source-card]].
+  Осталось: вытягивать конкретные шаблоны (финмотивация, стратсессия, оценка 360°)
+  точечно при переносе в edustar. Видео (~83) не разбираются.
 - **Адаптация под edustar не начата** — знание пока «как было в SHARKS»;
   перенос в edu-center — следующий шаг.
 
