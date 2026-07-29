@@ -11,3 +11,5 @@
   аргумент для cashflow-фичи edustar.
 - [[biz-knowledge/biz-knowledge-vault/lessons/meeting-effectiveness|meeting-effectiveness]]
   — цель встречи + вовлечённость = функция руководителей (из встреч Меруерт).
+- [[biz-knowledge/biz-knowledge-vault/lessons/service-degrades-at-scale|service-degrades-at-scale]]
+  — сервис проседает при росте объёма/цен; проектировать сервис-систему заранее.
